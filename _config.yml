@@ -1,0 +1,19 @@
+title: Awesome Proxy Ecosystem
+description: The Ultimate Curated List of Proxy Protocols, Tools, and Resources
+show_downloads: false
+theme: jekyll-theme-minimal
+
+# Multi-language
+languages:
+  - code: en
+    name: English
+    path: /
+  - code: zh-CN
+    name: 简体中文
+    path: /docs/zh-CN/
+  - code: ja
+    name: 日本語
+    path: /docs/ja/
+  - code: ko
+    name: 한국어
+    path: /docs/ko/

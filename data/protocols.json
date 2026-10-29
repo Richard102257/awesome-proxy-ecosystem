@@ -1,0 +1,291 @@
+{
+  "last_updated": "2026-10-29",
+  "protocols": [
+    {
+      "name": "VLESS-Reality",
+      "category": "stealth",
+      "tier": 1,
+      "status": "active",
+      "release_date": "2023-03-02",
+      "github": "https://github.com/XTLS/Xray-core",
+      "features": ["Fingerprint spoofing", "No domain required", "uTLS support", "Forward secrecy"],
+      "use_cases": ["Maximum stealth", "Censorship circumvention", "Long-term stability"],
+      "rating": { "stealth": 5, "speed": 4, "usability": 3 }
+    },
+    {
+      "name": "NaiveProxy",
+      "category": "stealth",
+      "tier": 1,
+      "status": "active",
+      "release_date": "2019-02-20",
+      "github": "https://github.com/klzgrad/naiveproxy",
+      "features": ["Chrome network stack", "HTTP/2 multiplexing", "Identical to browser"],
+      "use_cases": ["Maximum stealth", "When Chrome cannot be blocked"],
+      "rating": { "stealth": 5, "speed": 3, "usability": 3 }
+    },
+    {
+      "name": "AnyTLS",
+      "category": "stealth",
+      "tier": 1,
+      "status": "active",
+      "release_date": "2024-11-24",
+      "github": "https://github.com/anytls/anytls-go",
+      "features": ["Minimal TLS proxy", "Extremely hard to detect", "Simple configuration"],
+      "use_cases": ["Stealth without domain", "Simple deployment"],
+      "rating": { "stealth": 5, "speed": 3, "usability": 4 }
+    },
+    {
+      "name": "Hysteria 2",
+      "category": "speed",
+      "tier": 2,
+      "status": "active",
+      "release_date": "2023-08-20",
+      "github": "https://github.com/apernet/hysteria",
+      "features": ["Brutal congestion control", "20% packet loss tolerant", "QUIC based"],
+      "use_cases": ["Poor network conditions", "8K video streaming", "Cross-border gaming"],
+      "rating": { "stealth": 2, "speed": 5, "usability": 3 }
+    },
+    {
+      "name": "TUIC v5",
+      "category": "speed",
+      "tier": 2,
+      "status": "active",
+      "release_date": "2021-08-01",
+      "github": "https://github.com/tuic-protocol/tuic",
+      "features": ["QUIC based", "Multiplexed", "Mobile efficient"],
+      "use_cases": ["Mobile devices", "Battery-conscious users"],
+      "rating": { "stealth": 3, "speed": 5, "usability": 4 }
+    },
+    {
+      "name": "Juicity",
+      "category": "speed",
+      "tier": 2,
+      "status": "active",
+      "release_date": "2023-06-06",
+      "github": "https://github.com/juicity/juicity",
+      "features": ["QUIC protocol", "Fast & lightweight", "Concurrent"],
+      "use_cases": ["High speed needs", "Modern QUIC networks"],
+      "rating": { "stealth": 3, "speed": 5, "usability": 4 }
+    },
+    {
+      "name": "Shadowsocks-2022",
+      "category": "lightweight",
+      "tier": 3,
+      "status": "active",
+      "release_date": "2022-05-15",
+      "github": "https://github.com/shadowsocks/shadowsocks-rust",
+      "features": ["Low latency", "Session-based AEAD", "UDP optimized"],
+      "use_cases": ["Gaming", "Routers", "Embedded devices"],
+      "rating": { "stealth": 3, "speed": 4, "usability": 5 }
+    },
+    {
+      "name": "Brook",
+      "category": "lightweight",
+      "tier": 3,
+      "status": "active",
+      "release_date": "2017-05-18",
+      "github": "https://github.com/txthinking/brook",
+      "features": ["Simple", "Fast", "Cross-platform"],
+      "use_cases": ["Routers", "Simple deployment", "Legacy devices"],
+      "rating": { "stealth": 2, "speed": 4, "usability": 5 }
+    },
+    {
+      "name": "Vlite",
+      "category": "lightweight",
+      "tier": 3,
+      "status": "active",
+      "release_date": "2023-08-22",
+      "github": "https://github.com/v2fly/v2ray-core",
+      "features": ["Lightweight V2Ray variant", "Low resource usage"],
+      "use_cases": ["Routers", "Embedded systems"],
+      "rating": { "stealth": 3, "speed": 4, "usability": 4 }
+    },
+    {
+      "name": "Mieru",
+      "category": "stealth_minimal",
+      "tier": 4,
+      "status": "active",
+      "release_date": "2022-03-14",
+      "github": "https://github.com/enclica/mieru",
+      "features": ["Hard to classify", "Hard to probe", "Private protocol"],
+      "use_cases": ["Apple ecosystem", "Low maintenance"],
+      "rating": { "stealth": 4, "speed": 3, "usability": 4 }
+    },
+    {
+      "name": "Trojan",
+      "category": "stealth_minimal",
+      "tier": 4,
+      "status": "active",
+      "release_date": "2017-10-22",
+      "github": "https://github.com/trojan-gfw/trojan",
+      "features": ["Mimics HTTPS", "Simple protocol"],
+      "use_cases": ["Apple ecosystem", "Low maintenance"],
+      "rating": { "stealth": 4, "speed": 3, "usability": 4 }
+    },
+    {
+      "name": "Sudoku",
+      "category": "stealth_minimal",
+      "tier": 4,
+      "status": "active",
+      "release_date": "2025-03-14",
+      "github": "https://github.com/SUDOKU-ASCII/sudoku",
+      "features": ["Sudoku-based obfuscation", "Low-entropy fingerprint"],
+      "use_cases": ["Novel censorship resistance", "Apple ecosystem"],
+      "rating": { "stealth": 4, "speed": 3, "usability": 3 }
+    },
+    {
+      "name": "VMess",
+      "category": "classic",
+      "tier": 5,
+      "status": "archived",
+      "release_date": "2015-12-10",
+      "github": "https://github.com/v2fly/v2ray-core",
+      "features": ["Mature ecosystem", "Widely supported", "Feature rich"],
+      "use_cases": ["General purpose", "Multi-service routing"],
+      "rating": { "stealth": 3, "speed": 3, "usability": 4 }
+    },
+    {
+      "name": "VLESS-XTLS",
+      "category": "classic",
+      "tier": 5,
+      "status": "active",
+      "release_date": "2022-12-02",
+      "github": "https://github.com/XTLS/Xray-core",
+      "features": ["XTLS Vision/Reality", "Flow control", "High performance"],
+      "use_cases": ["Domain available", "Maximum performance"],
+      "rating": { "stealth": 4, "speed": 5, "usability": 3 }
+    },
+    {
+      "name": "SSR",
+      "category": "classic",
+      "tier": 5,
+      "status": "deprecated",
+      "release_date": "2015-04-03",
+      "github": "https://github.com/shadowsocksrr",
+      "features": ["Historical", "Extended SS"],
+      "use_cases": ["Legacy systems only"],
+      "rating": { "stealth": 1, "speed": 2, "usability": 2 }
+    },
+    {
+      "name": "WireGuard",
+      "category": "infrastructure",
+      "tier": 6,
+      "status": "active",
+      "release_date": "2020-03-20",
+      "github": "https://github.com/WireGuard",
+      "features": ["Industrial VPN", "Post-quantum ready", "Minimal codebase"],
+      "use_cases": ["Remote work", "Secure tunneling"],
+      "rating": { "stealth": 2, "speed": 5, "usability": 4 }
+    },
+    {
+      "name": "Tor",
+      "category": "infrastructure",
+      "tier": 6,
+      "status": "active",
+      "release_date": "2002-09-20",
+      "github": "https://github.com/torproject/tor",
+      "features": ["Anonymous routing", "Onion services", "Decentralized"],
+      "use_cases": ["Maximum anonymity", "Whistleblowing"],
+      "rating": { "stealth": 5, "speed": 1, "usability": 2 }
+    },
+    {
+      "name": "SSH",
+      "category": "infrastructure",
+      "tier": 6,
+      "status": "active",
+      "release_date": "1999-12-01",
+      "github": "https://github.com/openssh/openssh-portable",
+      "features": ["SOCKS5 tunneling", "Post-quantum support", "Universal"],
+      "use_cases": ["Remote access", "Secure tunneling"],
+      "rating": { "stealth": 2, "speed": 3, "usability": 4 }
+    },
+    {
+      "name": "kcptun",
+      "category": "infrastructure",
+      "tier": 6,
+      "status": "active",
+      "release_date": "2016-08-15",
+      "github": "https://github.com/xtaci/kcp-go",
+      "features": ["UDP acceleration", "Reliable transport", "Low overhead"],
+      "use_cases": ["Weak network optimization", "UDP acceleration"],
+      "rating": { "stealth": 1, "speed": 4, "usability": 3 }
+    },
+    {
+      "name": "Shadow-TLS",
+      "category": "transport",
+      "tier": 7,
+      "status": "active",
+      "release_date": "2022-10-04",
+      "github": "https://github.com/ihciah/shadow-tls",
+      "features": ["Wraps TLS", "Looks like normal HTTPS"],
+      "use_cases": ["Active probe resistance"],
+      "rating": { "stealth": 4, "speed": 3, "usability": 3 }
+    },
+    {
+      "name": "Snell",
+      "category": "transport",
+      "tier": 7,
+      "status": "active",
+      "release_date": "2018-12-20",
+      "github": "https://kb.nssurge.com",
+      "features": ["Surge developer", "Apple ecosystem optimized"],
+      "use_cases": ["Apple users", "Surge integration"],
+      "rating": { "stealth": 3, "speed": 4, "usability": 4 }
+    },
+    {
+      "name": "Masque",
+      "category": "transport",
+      "tier": 7,
+      "status": "active",
+      "release_date": "2022-08-24",
+      "github": "https://github.com/quic-go/masque-go",
+      "features": ["QUIC/HTTP-3 tunneling", "IETF standard"],
+      "use_cases": ["Modern HTTP/3 networks"],
+      "rating": { "stealth": 3, "speed": 4, "usability": 3 }
+    },
+    {
+      "name": "ShadowQUIC",
+      "category": "transport",
+      "tier": 7,
+      "status": "active",
+      "release_date": "2024-11-30",
+      "github": "https://github.com/spongebob888/shadowquic",
+      "features": ["SS stealth + QUIC multiplexing", "Reduces ping spikes"],
+      "use_cases": ["Gaming", "Stable connections"],
+      "rating": { "stealth": 3, "speed": 4, "usability": 3 }
+    },
+    {
+      "name": "GOST",
+      "category": "transport",
+      "tier": 7,
+      "status": "active",
+      "release_date": "2014-12-26",
+      "github": "https://github.com/go-gost/gost",
+      "features": ["Multi-protocol chain", "Security proxy"],
+      "use_cases": ["Multi-protocol gateway"],
+      "rating": { "stealth": 3, "speed": 3, "usability": 3 }
+    },
+    {
+      "name": "TrustTunnel",
+      "category": "transport",
+      "tier": 7,
+      "status": "active",
+      "release_date": "2026-01-22",
+      "github": "https://github.com/TrustTunnel/TrustTunnel",
+      "features": ["AdGuard obfuscated VPN", "Indistinguishable from HTTPS"],
+      "use_cases": ["AdGuard ecosystem"],
+      "rating": { "stealth": 4, "speed": 3, "usability": 4 }
+    },
+    {
+      "name": "Fragment",
+      "category": "transport",
+      "tier": 7,
+      "status": "active",
+      "release_date": "2023-02-12",
+      "github": "https://github.com/SagerNet/sing-box",
+      "features": ["TCP fragmentation", "Anti-censorship"],
+      "use_cases": ["DPI bypass"],
+      "rating": { "stealth": 3, "speed": 2, "usability": 3 }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+name: Report Issue
+description: Report a broken link, outdated info, or other issue
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the issue
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested Fix
+      description: If applicable, suggest a correction

@@ -1,0 +1,28 @@
+name: Update Protocol Status
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'  # Monthly on the 1st
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Check GitHub repository activity
+      run: |
+        echo "Checking repository activity for listed projects..."
+        # This workflow can be extended to automatically check
+        # if repositories have been archived or updated
+    - name: Create issue for outdated entries
+      if: failure()
+      uses: actions/github-script@v7
+      with:
+        script: |
+          github.rest.issues.create({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            title: 'Protocol status check results',
+            body: 'Some protocol repositories may need status updates. Please review.'
+          })

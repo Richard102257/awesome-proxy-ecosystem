@@ -1,0 +1,49 @@
+name: Add New Protocol/Tool
+description: Suggest a new protocol or tool to be added to the list
+labels: ["addition"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Name of the protocol or tool
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: GitHub URL
+      description: Link to the repository
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief description of what it does
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Proxy Protocol
+        - Client Software
+        - Server Panel
+        - Proxy Platform
+        - Free Proxy List
+        - Tool/Utility
+        - Learning Resource
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - Active (✅)
+        - Archived (⚠️)
+        - Deprecated (❌)
+    validations:
+      required: true
