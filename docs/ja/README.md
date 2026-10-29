@@ -14,8 +14,11 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/プロトコル-35+-blue" alt="Protocols"/>
-  <img src="https://img.shields.io/badge/クライアント-20+-green" alt="Clients"/>
-  <img src="https://img.shields.io/badge/プラットフォーム-8+-orange" alt="Platforms"/>
+  <img src="https://img.shields.io/badge/クライアント-30+-green" alt="Clients"/>
+  <img src="https://img.shields.io/badge/パネル-15+-orange" alt="Panels"/>
+  <img src="https://img.shields.io/badge/ツール-25+-purple" alt="Tools"/>
+  <img src="https://img.shields.io/badge/総数-150+-red" alt="Total"/>
+  <img src="https://img.shields.io/badge/言語-4-success" alt="Languages"/>
   <img src="https://img.shields.io/badge/license-MIT-success" alt="License"/>
 </p>
 
@@ -227,10 +230,13 @@
 
 | パネル | 対応プロトコル | 機能 | GitHub |
 |--------|---------------|------|--------|
-| **3X-UI** | VLESS/VMess/Trojan/H2/TUIC | Web GUI、多ユーザー、トラフィック制御 | [MHSanaei/3x-ui](https://github.com/MHSanaei/3x-ui) |
-| **X-UI** | VLESS/VMess/Trojan | シンプル Web パネル | [FranzKafkaYu/x-ui](https://github.com/FranzKafkaYu/x-ui) |
-| **Hiddify Manager** | 全主要 | マルチサーバー管理 | [hiddify/hiddify-manager](https://github.com/hiddify/hiddify-manager) |
-| **Marzban** | VLESS/VMess/Trojan | マルチプロトコル、Telegram Bot | [Gozargah/Marzban](https://github.com/Gozargah/Marzban) |
+| **3X-UI** | 13+ プロトコル、XTLS+REALITY | Web GUI、多ユーザー、Bot、PostgreSQL | [MHSanaei/3x-ui](https://github.com/MHSanaei/3x-ui) | ⭐ 35k+ |
+| **X-UI** | VLESS/VMess/Trojan | シンプル Web パネル | [vaxilu/x-ui](https://github.com/vaxilu/x-ui) | ⭐ 19k+ |
+| **s-ui** | sing-box | 高度な Web パネル | [alireza0/s-ui](https://github.com/alireza0/s-ui) | ⭐ 8.6k+ |
+| **Hiddify Manager** | 20+ プロトコル | マルチサーバー管理 | [hiddify/Hiddify-Manager](https://github.com/hiddify/Hiddify-Manager) | ⭐ 9.4k+ |
+| **Marzban** | VLESS/VMess/Trojan | マルチプロトコル、Telegram Bot | [Gozargah/Marzban](https://github.com/Gozargah/Marzban) | ⭐ 6.6k+ |
+| **x-ui-yg** | H2, Xhttp, ENC, Argo | 強化版 x-ui | [yonggekkk/x-ui-yg](https://github.com/yonggekkk/x-ui-yg) | ⭐ 3.5k+ |
+| **sspanel-uim** | マルチプロトコル | 商用パネル | [anankke/sspanel-uim](https://github.com/anankke/sspanel-uim) | ⭐ 10k+ |
 
 ---
 
@@ -240,12 +246,14 @@
 
 | プロジェクト | 言語 | 対応プロトコル | GitHub |
 |-------------|------|---------------|--------|
-| **sing-box** | Go | SS/VMess/VLESS/Trojan/TUIC/H2/Naive/WG | [SagerNet/sing-box](https://github.com/SagerNet/sing-box) |
-| **Xray-core** | Go | VLESS/VMess/Trojan/Reality/XTLS | [XTLS/Xray-core](https://github.com/XTLS/Xray-core) |
-| **v2ray-core** | Go | VMess/VLESS/SS/Trojan | [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core) |
-| **Clash** | Go | SS/VMess/VLESS/Trojan/SOCKS5/HTTP | [Dreamacro/clash](https://github.com/Dreamacro/clash) |
-| **mihomo** | Go | Clash + TUIC/H2/Reality | [MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo) |
-| **GOST** | Go | マルチプロトコルチェーン | [go-gost/gost](https://github.com/go-gost/gost) |
+| **sing-box** | Go | SS/VMess/VLESS/Trojan/TUIC/H2/Naive/WG/Shadow-TLS | [SagerNet/sing-box](https://github.com/SagerNet/sing-box) | ⭐ 25k+ |
+| **Xray-core** | Go | VLESS/VMess/Trojan/Reality/XTLS | [XTLS/Xray-core](https://github.com/XTLS/Xray-core) | ⭐ 35k+ |
+| **v2ray-core** | Go | VMess/VLESS/SS/Trojan | [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core) | ⭐ 25k+ |
+| **Clash** | Go | SS/VMess/VLESS/Trojan/SOCKS5/HTTP | [Dreamacro/clash](https://github.com/Dreamacro/clash) | アーカイブ |
+| **mihomo** | Go | Clash + TUIC/H2/Reality | [MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo) | ⭐ 25k+ |
+| **clash-rs** | Rust | Clash プロトコル Rust 再実装 | [Watfaq/clash-rs](https://github.com/Watfaq/clash-rs) | ⭐ 1.6k+ |
+| **GOST** | Go | マルチプロトコルチェーン | [go-gost/gost](https://github.com/go-gost/gost) | ⭐ 7k+ |
+| **dae** | Go | カーネルベースプロキシ | [daeuniverse/dae](https://github.com/daeuniverse/dae) | ⭐ 5k+ |
 
 ### リバースプロキシ＆ロードバランサー
 
@@ -287,6 +295,90 @@
 | **rota** | 高性能ローテーションエンジン | [alpkeskin/rota](https://github.com/alpkeskin/rota) |
 | **singbox2proxy** | HTTP クライアントで sing-box プロキシを使用 | [nichind/singbox2proxy](https://github.com/nichind/singbox2proxy) |
 
+### 透過プロキシ
+
+| ツール | 説明 | GitHub | Stars |
+|--------|------|--------|-------|
+| **ss-tproxy** | ss/v2ray/xray/trojan/hysteria 透過プロキシ | [zfl9/ss-tproxy](https://github.com/zfl9/ss-tproxy) | ⭐ 2.4k+ |
+
+### 開発ライブラリ
+
+| ライブラリ | 言語 | 用途 | GitHub | Stars |
+|-----------|------|------|--------|-------|
+| **kcp-go** | Go | UDP 信頼性傳輸 | [xtaci/kcp-go](https://github.com/xtaci/kcp-go) | ⭐ 4k+ |
+| **quic-go** | Go | QUIC プロトコル | [quic-go/quic-go](https://github.com/quic-go/quic-go) | ⭐ 10k+ |
+| **masque-go** | Go | MASQUE プロキシ | [quic-go/masque-go](https://github.com/quic-go/masque-go) | ⭐ 500+ |
+
+---
+
+## 🚇 トンネリングツール
+
+| ツール | 説明 | GitHub | Stars |
+|--------|------|--------|-------|
+| **FRP** | 高速リバースプロキシ（最人気） | [fatedier/frp](https://github.com/fatedier/frp) | ⭐ 90k+ |
+| **ngrok** | localhost の公開 URL | [ngrok/ngrok](https://github.com/ngrok/ngrok) | ⭐ 2.5k+ |
+| **Cloudflare Tunnel** | ゼロ設定 CF トンネル | [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) | ⭐ 10k+ |
+| **Chisel** | HTTP 上の高速 TCP/UDP トンネル | [jpillora/chisel](https://github.com/jpillora/chisel) | ⭐ 15k+ |
+| **Tailscale** | ゼロ設定メッシュ VPN | [tailscale/tailscale](https://github.com/tailscale/tailscale) | ⭐ 25k+ |
+| **sshuttle** | 透過 SSH プロキシ | [sshuttle/sshuttle](https://github.com/sshuttle/sshuttle) | ⭐ 10k+ |
+| **localtunnel** | localhost を Web に公開 | [localtunnel/localtunnel](https://github.com/localtunnel/localtunnel) | ⭐ 20k+ |
+
+📚 **完全なトンネルリスト：** [awesome-tunneling](https://github.com/anderspitman/awesome-tunneling)（21k+ stars）
+
+---
+
+## 🔄 サブスクリプション管理
+
+| ツール | 説明 | GitHub | Stars |
+|--------|------|--------|-------|
+| **Sub-Store** | 高度なサブスクリプション管理・形式変換 | [sub-store-org/Sub-Store](https://github.com/sub-store-org/Sub-Store) | ⭐ 9.9k+ |
+| **subconverter** | 全クライアント形式対応サブスクリプション変換 | [tindy2013/subconverter](https://github.com/tindy2013/subconverter) | ⭐ 15.9k+ |
+| **ACL4SSR** | ルールセット生成・変換 | [acl4ssr/ACL4SSR](https://github.com/acl4ssr/ACL4SSR) | ⭐ 5.8k+ |
+
+---
+
+## 📋 ルーティングルール
+
+| ルールセット | 説明 | GitHub | Stars |
+|-------------|------|--------|-------|
+| **clash-rules** | Clash Premium ルールセット（最人気） | [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) | ⭐ 26k+ |
+| **chn-iplist** | 中国 IP ルーティングルール | [PaPerseller/chn-iplist](https://github.com/PaPerseller/chn-iplist) | ⭐ 1.2k+ |
+| **china_ip_list** | 中国 IP リスト | [17mon/china_ip_list](https://github.com/17mon/china_ip_list) | ⭐ 4k+ |
+| **domain-list-community** | Clast コミュニティドメインリスト | [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) | ⭐ 5k+ |
+
+---
+
+## ⚡ ワンクリックインストールスクリプト
+
+| スクリプト | プロトコル | 機能 | GitHub | Stars |
+|-----------|-----------|------|--------|-------|
+| **v2ray-agent** | Xray/Tuic/H2/sing-box 8in1 | 最も包括的 | [mack-a/v2ray-agent](https://github.com/mack-a/v2ray-agent) | ⭐ 20k+ |
+| **233boy/v2ray** | V2Ray クラシック | 最も人気 | [233boy/v2ray](https://github.com/233boy/v2ray) | ⭐ 28.8k+ |
+| **sing-box-yg** | sing-box 5in1 | Argo トンネル、Psiphon | [yonggekkk/sing-box-yg](https://github.com/yonggekkk/sing-box-yg) | ⭐ 8.3k+ |
+| **Xray_onekey** | VLESS + XTLS | 初期の人気インストーラー | [wulabing/Xray_onekey](https://github.com/wulabing/Xray_onekey) | ⭐ 9.3k+ |
+| **reality-ezpz** | VLESS/TuIC/H2/ShadowTLS | Docker Compose | [aleskxyz/reality-ezpz](https://github.com/aleskxyz/reality-ezpz) | ⭐ 1.5k+ |
+
+---
+
+## ☁️ Cloudflare & WARP
+
+| プロジェクト | 説明 | GitHub | Stars |
+|-------------|------|--------|-------|
+| **am-cf-tunnel** | CF Workers/Pages for VLESS/Trojan | [amclubs/am-cf-tunnel](https://github.com/amclubs/am-cf-tunnel) | ⭐ 3k+ |
+| **cloudflared** | 公式 CF Tunnel クライアント | [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) | ⭐ 10k+ |
+| **wgcf** | WARP WireGuard 設定生成 | [Vi3merH/wgcf](https://github.com/Vi3merH/wgcf) | ⭐ 6k+ |
+
+---
+
+## 🛡️ 検閲回避リソース
+
+| リソース | 説明 | GitHub | Stars |
+|----------|------|--------|-------|
+| **awesome-anticensor** | 構造化検閲回避リスト | [marzneshin/awesome-anticensor](https://github.com/marzneshin/awesome-anticensor) | ⭐ 38+ |
+| **awesome-freedom** | パネル、スクリプト、Bot | [erfjab/awesome-freedom](https://github.com/erfjab/awesome-freedom) | ⭐ 153+ |
+| **awesome-tunneling** | ngrok/CF Tunnel 代替 | [anderspitman/awesome-tunneling](https://github.com/anderspitman/awesome-tunneling) | ⭐ 21k+ |
+| **awesome-wireguard** | WireGuard ツール | [cedrickchee/awesome-wireguard](https://github.com/cedrickchee/awesome-wireguard) | ⭐ 1.5k+ |
+
 ---
 
 ## 📚 学習リソース
@@ -322,5 +414,6 @@ MIT ライセンス — 詳細は [LICENSE](../../LICENSE) をご覧ください
 
 <p align="center">
   <sub>コミュニティによって、コミュニティのために。</sub><br/>
+  <sub>150+ エントリ · 12 カテゴリ · 4 言語</sub><br/>
   <sub>最終更新：2026-10-29</sub>
 </p>

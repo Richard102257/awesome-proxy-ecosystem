@@ -14,8 +14,11 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/프로토콜-35+-blue" alt="Protocols"/>
-  <img src="https://img.shields.io/badge/클라이언트-20+-green" alt="Clients"/>
-  <img src="https://img.shields.io/badge/플랫폼-8+-orange" alt="Platforms"/>
+  <img src="https://img.shields.io/badge/클라이언트-30+-green" alt="Clients"/>
+  <img src="https://img.shields.io/badge/패널-15+-orange" alt="Panels"/>
+  <img src="https://img.shields.io/badge/도구-25+-purple" alt="Tools"/>
+  <img src="https://img.shields.io/badge/전체-150+-red" alt="Total"/>
+  <img src="https://img.shields.io/badge/언어-4-success" alt="Languages"/>
   <img src="https://img.shields.io/badge/license-MIT-success" alt="License"/>
 </p>
 
@@ -227,10 +230,13 @@
 
 | 패널 | 지원 프로토콜 | 기능 | GitHub |
 |------|-------------|------|--------|
-| **3X-UI** | VLESS/VMess/Trojan/H2/TUIC | Web GUI, 다중 사용자, 트래픽 제어 | [MHSanaei/3x-ui](https://github.com/MHSanaei/3x-ui) |
-| **X-UI** | VLESS/VMess/Trojan | 간단한 Web 패널 | [FranzKafkaYu/x-ui](https://github.com/FranzKafkaYu/x-ui) |
-| **Hiddify Manager** | 전체 주요 | 다중 서버 관리 | [hiddify/hiddify-manager](https://github.com/hiddify/hiddify-manager) |
-| **Marzban** | VLESS/VMess/Trojan | 멀티프로토콜, Telegram Bot | [Gozargah/Marzban](https://github.com/Gozargah/Marzban) |
+| **3X-UI** | 13+ 프로토콜, XTLS+REALITY | Web GUI, 다중 사용자, Bot, PostgreSQL | [MHSanaei/3x-ui](https://github.com/MHSanaei/3x-ui) | ⭐ 35k+ |
+| **X-UI** | VLESS/VMess/Trojan | 간단한 Web 패널 | [vaxilu/x-ui](https://github.com/vaxilu/x-ui) | ⭐ 19k+ |
+| **s-ui** | sing-box | 고급 Web 패널 | [alireza0/s-ui](https://github.com/alireza0/s-ui) | ⭐ 8.6k+ |
+| **Hiddify Manager** | 20+ 프로토콜 | 다중 서버 관리 | [hiddify/Hiddify-Manager](https://github.com/hiddify/Hiddify-Manager) | ⭐ 9.4k+ |
+| **Marzban** | VLESS/VMess/Trojan | 멀티프로토콜, Telegram Bot | [Gozargah/Marzban](https://github.com/Gozargah/Marzban) | ⭐ 6.6k+ |
+| **x-ui-yg** | H2, Xhttp, ENC, Argo | 강화판 x-ui | [yonggekkk/x-ui-yg](https://github.com/yonggekkk/x-ui-yg) | ⭐ 3.5k+ |
+| **sspanel-uim** | 멀티프로토콜 | 상용 패널 | [anankke/sspanel-uim](https://github.com/anankke/sspanel-uim) | ⭐ 10k+ |
 
 ---
 
@@ -240,12 +246,14 @@
 
 | 프로젝트 | 언어 | 지원 프로토콜 | GitHub |
 |---------|------|-------------|--------|
-| **sing-box** | Go | SS/VMess/VLESS/Trojan/TUIC/H2/Naive/WG | [SagerNet/sing-box](https://github.com/SagerNet/sing-box) |
-| **Xray-core** | Go | VLESS/VMess/Trojan/Reality/XTLS | [XTLS/Xray-core](https://github.com/XTLS/Xray-core) |
-| **v2ray-core** | Go | VMess/VLESS/SS/Trojan | [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core) |
-| **Clash** | Go | SS/VMess/VLESS/Trojan/SOCKS5/HTTP | [Dreamacro/clash](https://github.com/Dreamacro/clash) |
-| **mihomo** | Go | Clash + TUIC/H2/Reality | [MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo) |
-| **GOST** | Go | 멀티프로토콜 체인 | [go-gost/gost](https://github.com/go-gost/gost) |
+| **sing-box** | Go | SS/VMess/VLESS/Trojan/TUIC/H2/Naive/WG/Shadow-TLS | [SagerNet/sing-box](https://github.com/SagerNet/sing-box) | ⭐ 25k+ |
+| **Xray-core** | Go | VLESS/VMess/Trojan/Reality/XTLS | [XTLS/Xray-core](https://github.com/XTLS/Xray-core) | ⭐ 35k+ |
+| **v2ray-core** | Go | VMess/VLESS/SS/Trojan | [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core) | ⭐ 25k+ |
+| **Clash** | Go | SS/VMess/VLESS/Trojan/SOCKS5/HTTP | [Dreamacro/clash](https://github.com/Dreamacro/clash) | 아카이브 |
+| **mihomo** | Go | Clash + TUIC/H2/Reality | [MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo) | ⭐ 25k+ |
+| **clash-rs** | Rust | Clash 프로토콜 Rust 재구현 | [Watfaq/clash-rs](https://github.com/Watfaq/clash-rs) | ⭐ 1.6k+ |
+| **GOST** | Go | 멀티프로토콜 체인 | [go-gost/gost](https://github.com/go-gost/gost) | ⭐ 7k+ |
+| **dae** | Go | 커널기반 프록시 | [daeuniverse/dae](https://github.com/daeuniverse/dae) | ⭐ 5k+ |
 
 ### 리버스 프록시 및 로드 밸런서
 
@@ -257,6 +265,55 @@
 | **Envoy** | 서비스 메시 L7 프록시 | [envoyproxy/envoy](https://github.com/envoyproxy/envoy) |
 | **HAProxy** | TCP/HTTP 로드 밸런서 | [haproxy/haproxy](https://github.com/haproxy/haproxy) |
 | **FRP** | 고속 리버스 프록시 | [fatedier/frp](https://github.com/fatedier/frp) |
+| **Rathole** | 고성능 리버스 프록시 (Rust) | [rapiz1/rathole](https://github.com/rapiz1/rathole) | ⭐ 10k+ |
+
+---
+
+## 🚇 터널링 도구
+
+| 도구 | 설명 | GitHub | Stars |
+|------|------|--------|-------|
+| **FRP** | 고속 리버스 프록시（최고 인기） | [fatedier/frp](https://github.com/fatedier/frp) | ⭐ 90k+ |
+| **ngrok** | localhost 공개 URL | [ngrok/ngrok](https://github.com/ngrok/ngrok) | ⭐ 2.5k+ |
+| **Cloudflare Tunnel** | 제로설정 CF 터널 | [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) | ⭐ 10k+ |
+| **Chisel** | HTTP 상의 고속 TCP/UDP 터널 | [jpillora/chisel](https://github.com/jpillora/chisel) | ⭐ 15k+ |
+| **Tailscale** | 제로설정 메시 VPN | [tailscale/tailscale](https://github.com/tailscale/tailscale) | ⭐ 25k+ |
+| **sshuttle** | 투명 SSH 프록시 | [sshuttle/sshuttle](https://github.com/sshuttle/sshuttle) | ⭐ 10k+ |
+| **localtunnel** | localhost를 Web에 공개 | [localtunnel/localtunnel](https://github.com/localtunnel/localtunnel) | ⭐ 20k+ |
+
+📚 **전체 터널 목록:** [awesome-tunneling](https://github.com/anderspitman/awesome-tunneling) (21k+ stars)
+
+---
+
+## 🔄 구독 관리
+
+| 도구 | 설명 | GitHub | Stars |
+|------|------|--------|-------|
+| **Sub-Store** | 고급 구독 관리·형식 변환 | [sub-store-org/Sub-Store](https://github.com/sub-store-org/Sub-Store) | ⭐ 9.9k+ |
+| **subconverter** | 전 클라이언트 형식 구독 변환 | [tindy2013/subconverter](https://github.com/tindy2013/subconverter) | ⭐ 15.9k+ |
+| **ACL4SSR** | 규칙세트 생성·변환 | [acl4ssr/ACL4SSR](https://github.com/acl4ssr/ACL4SSR) | ⭐ 5.8k+ |
+
+---
+
+## 📋 라우팅 규칙
+
+| 규칙세트 | 설명 | GitHub | Stars |
+|----------|------|--------|-------|
+| **clash-rules** | Clash Premium 규칙세트（최고 인기） | [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) | ⭐ 26k+ |
+| **chn-iplist** | 중국 IP 라우팅 규칙 | [PaPerseller/chn-iplist](https://github.com/PaPerseller/chn-iplist) | ⭐ 1.2k+ |
+| **china_ip_list** | 중국 IP 목록 | [17mon/china_ip_list](https://github.com/17mon/china_ip_list) | ⭐ 4k+ |
+| **domain-list-community** | Clash 커뮤니티 도메인 목록 | [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) | ⭐ 5k+ |
+
+---
+
+## ⚡ 원클릭 설치 스크립트
+
+| 스크립트 | 프로토콜 | 기능 | GitHub | Stars |
+|----------|---------|------|--------|-------|
+| **v2ray-agent** | Xray/Tuic/H2/sing-box 8in1 | 가장 포괄적 | [mack-a/v2ray-agent](https://github.com/mack-a/v2ray-agent) | ⭐ 20k+ |
+| **233boy/v2ray** | V2Ray 클래식 | 최고 인기 | [233boy/v2ray](https://github.com/233boy/v2ray) | ⭐ 28.8k+ |
+| **sing-box-yg** | sing-box 5in1 | Argo 터널, Psiphon | [yonggekkk/sing-box-yg](https://github.com/yonggekkk/sing-box-yg) | ⭐ 8.3k+ |
+| **Xray_onekey** | VLESS + XTLS | 초기 인기 설치기 | [wulabing/Xray_onekey](https://github.com/wulabing/Xray_onekey) | ⭐ 9.3k+ |
 
 ---
 
@@ -286,6 +343,40 @@
 |------|------|--------|
 | **rota** | 고성능 로테이션 엔진 | [alpkeskin/rota](https://github.com/alpkeskin/rota) |
 | **singbox2proxy** | HTTP 클라이언트에서 sing-box 프록시 사용 | [nichind/singbox2proxy](https://github.com/nichind/singbox2proxy) |
+
+### 투명 프록시
+
+| 도구 | 설명 | GitHub | Stars |
+|------|------|--------|-------|
+| **ss-tproxy** | ss/v2ray/xray/trojan/hysteria 투명 프록시 | [zfl9/ss-tproxy](https://github.com/zfl9/ss-tproxy) | ⭐ 2.4k+ |
+
+### 개발 라이브러리
+
+| 라이브러리 | 언어 | 목적 | GitHub | Stars |
+|-----------|------|------|--------|-------|
+| **kcp-go** | Go | UDP 신뢰성 전송 | [xtaci/kcp-go](https://github.com/xtaci/kcp-go) | ⭐ 4k+ |
+| **quic-go** | Go | QUIC 프로토콜 | [quic-go/quic-go](https://github.com/quic-go/quic-go) | ⭐ 10k+ |
+
+---
+
+## ☁️ Cloudflare & WARP
+
+| 프로젝트 | 설명 | GitHub | Stars |
+|---------|------|--------|-------|
+| **am-cf-tunnel** | CF Workers/Pages for VLESS/Trojan | [amclubs/am-cf-tunnel](https://github.com/amclubs/am-cf-tunnel) | ⭐ 3k+ |
+| **cloudflared** | 공식 CF Tunnel 클라이언트 | [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) | ⭐ 10k+ |
+| **wgcf** | WARP WireGuard 설정 생성 | [Vi3merH/wgcf](https://github.com/Vi3merH/wgcf) | ⭐ 6k+ |
+
+---
+
+## 🛡️ 검열 우회 리소스
+
+| 리소스 | 설명 | GitHub | Stars |
+|--------|------|--------|-------|
+| **awesome-anticensor** | 구조화 검열 우회 목록 | [marzneshin/awesome-anticensor](https://github.com/marzneshin/awesome-anticensor) | ⭐ 38+ |
+| **awesome-freedom** | 패널, 스크립트, Bot | [erfjab/awesome-freedom](https://github.com/erfjab/awesome-freedom) | ⭐ 153+ |
+| **awesome-tunneling** | ngrok/CF Tunnel 대체 | [anderspitman/awesome-tunneling](https://github.com/anderspitman/awesome-tunneling) | ⭐ 21k+ |
+| **awesome-wireguard** | WireGuard 도구 | [cedrickchee/awesome-wireguard](https://github.com/cedrickchee/awesome-wireguard) | ⭐ 1.5k+ |
 
 ---
 
@@ -323,5 +414,6 @@ MIT 라이선스 — 자세한 내용은 [LICENSE](../../LICENSE)를 참조하�
 
 <p align="center">
   <sub>커뮤니티에 의해, 커뮤니티를 위해.</sub><br/>
+  <sub>150+ 항목 · 12 카테고리 · 4 언어</sub><br/>
   <sub>최종 업데이트: 2026-10-29</sub>
 </p>
