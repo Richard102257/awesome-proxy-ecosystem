@@ -423,6 +423,12 @@ The ultimate camouflage.
 | **rota** | High-performance rotation engine | [alpkeskin/rota](https://github.com/alpkeskin/rota) | ⭐ 1k+ |
 | **proxybroker2** | Auto-rotate proxy finder | [bluet/proxybroker2](https://github.com/bluet/proxybroker2) | ⭐ 500+ |
 
+### Proxy Diagnostics
+
+| Tool | Description | GitHub | Stars |
+|------|-------------|--------|-------|
+| **Kilobat CLI** | Active macOS network diagnostic CLI; queries a configured Clash-compatible controller for routes and delay | [seifip/kilobat-cli](https://github.com/seifip/kilobat-cli) | ⭐ 1 |
+
 ### Transparent Proxy
 
 | Tool | Description | GitHub | Stars |
